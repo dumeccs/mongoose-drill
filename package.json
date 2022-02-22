@@ -5,12 +5,15 @@
   "main": "database.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve" : "nodemon database.js"
+    "serve": "nodemon database.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "mongoose": "^6.2.3"
   }
 }
